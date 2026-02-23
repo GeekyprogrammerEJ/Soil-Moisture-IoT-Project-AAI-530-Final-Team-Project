@@ -1,0 +1,17 @@
+# Soil Moisture Final notebook - Python dependencies
+# Requires Python 3.10, 3.11, or 3.12 (TensorFlow does not support 3.14).
+#
+# Create and use the environment:
+#   python3.12 -m venv venv
+#   source venv/bin/activate   # macOS/Linux
+#   pip install -r requirements.txt
+#   jupyter notebook   # or open the .ipynb in Cursor/VS Code and select kernel "Python (soil-moisture-env)"
+
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+tensorflow>=2.10.0
+plotly>=5.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
